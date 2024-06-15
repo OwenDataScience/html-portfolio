@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Form</title>
+    <style>
+        .success-message {
+            display: none;
+            color: green;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a href="MProject.html">Go Back to Home Page</a>
+    <ul>
+        <li>Contact Me</li>
+        <li>Tel: (450) 765-0788</li>
+        <li>Email: owenode@gmail.com</li>
+        <li>Address: Laval, Some City, Some Province, Canada</li>
+    </ul>
+
+    <table border="1">
+        <tr>
+            <th>Goals to set</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Skill Enhancement</td>
+            <td>Enroll in advanced training courses to improve technical skills such as SQL, Python, or data visualization tools</td>
+        </tr>
+        <tr>
+            <td>Professional Certification</td>
+            <td>Obtain industry-recognized certifications such as Microsoft Certified: Data Analyst Associate or AWS Certified Data Analytics</td>
+        </tr>
+        <tr>
+            <td>Networking</td>
+            <td>Attend industry conferences, join professional associations, and engage with peers on platforms like LinkedIn to expand professional network.</td>
+        </tr>
+        <tr>
+            <td>Project Management</td>
+            <td>Develop project management skills by leading or participating in cross-functional projects, and consider certifications like PMP (Project Management Professional).</td>
+        </tr>
+        <tr>
+            <td>Soft Skills Development</td>
+            <td>Improve communication, teamwork, and problem-solving skills through workshops, seminars, and real-world practice.</td>
+        </tr>
+    </table>
+
+    <form action="success.html" method="post">
+        <label>Your Full Name</label>
+        <input name="fullName" required><br>
+        <label>Your Phone Number</label>
+        <input name="phoneNumber" required><br>
+        <label>Your Email</label>
+        <input name="email" type="email" required><br>
+        <label>Date</label>
+        <input name="date" type="date" required><br>
+        <button type="submit">Order</button>
+    </form>
+</body>
+</html>
